@@ -1,0 +1,133 @@
+:root{
+    --amarelo: #FFD900;
+    --roxo: #514988;
+    --rosa: #E33881;
+}
+
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Barra Superior */
+#barra_superior{
+    height: 30%;
+    background-color: var(--amarelo);
+    padding: 20px 0px 20px 20px;
+}
+/* Texto Informatiovo */
+#texto_informacional{
+    background-color: var(--roxo);
+    text-align: center;
+    padding: 0px ;
+    width: 100%;
+}
+
+#texto_informacional h1{
+    color: var(--amarelo);
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+}
+
+#texto_informacional h3{
+    color: white;
+    padding-bottom: 20px;
+}
+
+#texto{
+    color: white;
+    padding-bottom: 60px;
+}
+
+/* Cronometro */
+#principal{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 50% 50%;
+}
+
+#cronometro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.timer{
+    color: var(--roxo);
+    padding-left: 20px;
+    margin: 0;
+}
+
+.box{
+    display: flex;
+    width: 100%;
+}
+
+.box h1{
+    margin: 0;
+    font-size: 50px;
+    color: var(--roxo);
+}
+
+#complemento{
+    color: var(--rosa);
+    margin-left: 15px;
+}
+
+#complemento h2{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#alerquina{
+    width: 98%;
+}
+
+/* Footer */
+footer nav{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 60% auto;
+}
+
+#texto_footer{
+    color: var(--amarelo);
+    padding-left: 60px;
+    font-size: 20px;
+}
+
+.semanal{
+    padding-left: 20px;
+    margin: 0;
+    width: 150px;
+}
+
+#botaoDiv{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#compra{
+    background-color: var(--roxo);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    border: 0;
+    width: 300px;
+    height: 90px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+#compra:hover{
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 10px 10px #413a6d;
+    color: #F3C61F;
+}
